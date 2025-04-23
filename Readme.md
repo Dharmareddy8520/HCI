@@ -156,8 +156,3 @@ print(torch.cuda.is_available())  # Should return True
 - Batch prediction from CSV files.
 
 ---
-
-## 👤 Author
-
-Built with ❤️ by [Your Name]  
-For HCI + Affective Computing research @ TAMUCC
