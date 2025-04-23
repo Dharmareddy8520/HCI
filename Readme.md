@@ -61,7 +61,7 @@ This Python script:
 ### ▶️ Run:
 
 ```bash
-python predict.py
+python main.py
 ```
 
 Example Output:
