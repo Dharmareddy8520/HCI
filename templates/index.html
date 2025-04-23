@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emotion Detector</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+      textarea { width: 100%; padding: 10px; }
+    </style>
+  </head>
+  <body>
+    <h2>Emotion Detection</h2>
+    <form method="post">
+      <textarea name="text" rows="4" placeholder="Type something...">
+{{ text or '' }}</textarea
+      ><br /><br />
+      <button type="submit">Analyze</button>
+    </form>
+
+    {% if result %}
+    <h3>Detected Emotions:</h3>
+    <ul>
+      {% for label, prob in result %}
+      <li><strong>{{ label }}</strong>: {{ prob }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>

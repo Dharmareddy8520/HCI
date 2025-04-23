@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Virtual environments
+env/
+venv/
+pro/
+.venv/
+
+# Model weights / outputs
+emotion-model/
+results/
+logs/
+*.bin
+*.ckpt
+
+# Colab & IPython
+*.nbconvert.ipynb
+*.out
+*.ipynb~
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+*.local
